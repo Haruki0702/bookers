@@ -30,3 +30,19 @@ p{
   line-height:18px;
   margin:33px;
 }
+a:visited{
+  color:#666;
+}
+a{
+  color:#000;
+}
+
+a:-webkit-any-link{
+  color:-webkit-link;
+  cursor:pointer;
+  text-decoration: underline;
+}
+a:hover {
+    color: #fff;
+    background-color: #000
+}
